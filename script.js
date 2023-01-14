@@ -1,14 +1,14 @@
 const planets = [
     { planetName: "Sun", gravity: 27.9, image: "images/sun.png" },
-    { planetName: "Moon", gravity: 1.6, image: "images/moon.png" },
-    { planetName: "Mercury", gravity: 3.7, image: "images/mercury.png" },
-    { planetName: "Venus", gravity: 8.9, image: "images/venus.png" },
-    { planetName: "Earth", gravity: 9.8, image: "images/earth.png" },
-    { planetName: "Mars", gravity: 3.7, image: "images/mars.png" },
-    { planetName: "Jupiter", gravity: 23.1, image: "images/jupiter.png" },
-    { planetName: "Saturn", gravity: 9.0, image: "images/saturn.png" },
-    { planetName: "Uranus", gravity: 8.7, image: "images/uranus.png" },
-    { planetName: "Neptune", gravity: 11.0, image: "images/neptune.png" },
+    { planetName: "Moon", gravity: 0.166, image: "images/moon.png" },
+    { planetName: "Mercury", gravity: 0.378, image: "images/mercury.png" },
+    { planetName: "Venus", gravity: 0.907, image: "images/venus.png" },
+    { planetName: "Earth", gravity: 1, image: "images/earth.png" },
+    { planetName: "Mars", gravity: 0.377, image: "images/mars.png" },
+    { planetName: "Jupiter", gravity: 2.36, image: "images/jupiter.png" },
+    { planetName: "Saturn", gravity: 0.916, image: "images/saturn.png" },
+    { planetName: "Uranus", gravity: 0.889, image: "images/uranus.png" },
+    { planetName: "Neptune", gravity: 1.12, image: "images/neptune.png" },
 ]
 let planetName = document.getElementById("planetName");
 let planet = document.getElementById("planets");
@@ -57,7 +57,7 @@ function calculateWeight() {
                   <h3 id="planetName">${name}</h3>
               </div>
               <div class="weight">
-                  <h2 id="weight">${result}N</h2>
+                  <h2 id="weight">${result}Kg</h2>
               </div>
             </div>
         </div>`;

@@ -121,8 +121,8 @@ p{
 }
 .weight{
     /* border: 1px solid red; */
-    height: 5.5rem;
-    width: 5.5rem;
+    height: 4rem;
+    width: 8rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -138,4 +138,47 @@ p{
     justify-content: center;
     align-items: center;
     color: white
+}
+@media only screen and (max-width: 425px){
+    body{
+        /* border: 2px solid red; */
+        width : 425px;
+        height:530px;
+    }
+    h1{
+        font-size: 18px;
+    }
+    .inputBox{
+        width:400px;
+    }
+    input{
+        width:130px;
+        font-size:13px;
+    }
+    select{
+        width:120px;
+        font-size: 12px;
+    }
+    button{
+        width:80px;
+    }
+    .container{
+        
+        flex-direction: column;
+    }
+    img{
+        height: 60%;
+        width: 85%;
+    }
+    .text{
+        height:30%;
+        width: 85%;
+    }
+    .weight{
+        height: 2.7rem;
+    }
+    .error{
+        width: 90%;
+        height: 30%;
+    }
 }
